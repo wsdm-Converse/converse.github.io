@@ -58,7 +58,8 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-image: url('../img/take5.png');
+  background-image: url('../img/take6.jpeg');
+
 }
 
 header.masthead .masthead-content {
@@ -67,11 +68,13 @@ header.masthead .masthead-content {
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 2rem;
+  font-size: 3rem;
+  background: rgba(255,255,255,0.5);
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 1rem;
+  background: rgba(255,255,255,0.5);
 }
 
 
@@ -81,7 +84,7 @@ header.masthead .masthead-content .masthead-subheading {
     padding-bottom: 7rem;
   }
   header.masthead .masthead-content .masthead-heading {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #FFCB05 !important;
   }
   header.masthead .masthead-content .masthead-subheading {

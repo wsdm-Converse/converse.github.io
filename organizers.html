@@ -2,6 +2,26 @@
 <html lang="en">
 
   <head>
+    <style type="text/css">  
+    .tg  {border-collapse:collapse;border-spacing:0; width: 520px}
+    .tg td{font-family:Lato, sans-serif;font-size:14px;padding:12px 12px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
+    .tg th{font-family:Lato, sans-serif;font-size:14px;font-weight:normal;padding:12px 12px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;}
+    .tg .tg-lqy6{text-align:right;vertical-align:top; width: 100px}
+    .tg .tg-odj0{font-weight:bold;background-color:#ffcb2f;vertical-align:top}
+    .tg .tg-yw4l{vertical-align:top}
+    .tg .tg-l2oz{font-weight:bold;text-align:right;vertical-align:top}
+    .tg .tg-9hbo{font-weight:bold;vertical-align:top}
+    .tg .tg-xr8r{background-color:#ffffc7;text-align:right;vertical-align:top; width: 100px}
+    .tg .tg-kjho{background-color:#ffffc7;vertical-align:top}
+
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+    </style>
+
    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115771746-1"></script>
     <script>
@@ -16,7 +36,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SIGIR eCom</title>
+    <title>WSDM ConvERSE</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="./index.html">SIGIR eCom'18</a>
+        <a class="navbar-brand" href="./index.html">WSDM ConvERSe'20</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,38 +64,28 @@
             <li class="nav-item">
               <a class="nav-link" href="./index.html">Home</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="./dates.html">Important Dates</a>
-            </li> -->
-             <li class="nav-item">
-              <a class="nav-link" href="./program.html">Program</a>
-            </li>
+           
             <li class="nav-item">
-              <a class="nav-link" href="./accepted-papers.html">Accepted Papers</font></a>
+              <a class="nav-link" href="./dates.html">Dates</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./data-task.html">Data Challenge</a>
-            </li>
-            
-            
+
             <li class="nav-item">
               <a class="nav-link" href="./organizers.html"><font color=#FFCB05>Organizers</font></a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
               <a class="nav-link" href="./cfp.html">CFP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://sigir-ecom.weebly.com/" target="_blank">SIGIR eCom'17</a>
-            </li>
+            </li>-->
+            
             <li>
-                      <a href="https://twitter.com/SIGIReCom" target="_blank">
+                      <a href="https://twitter.com/WSDMConvERSe" target="_blank">
                       <img src="./img/Twitter_Social_Icon_Circle_White.png" style="width:25px;height:25px;" > </a>
                     </li>
+
+            
           </ul>
         </div>
       </div>
     </nav>
-
     
     <section>
       <div class="container">
@@ -123,13 +133,12 @@
 
 
 <h2 class="wsite-content-title" style="text-align:left;"><font size="3">
-  <font >Jon Degenhardt</font> &nbsp; &nbsp;&nbsp;<font color="#818181">​</font><font color="#818181">eBay inc., USA</font><br>
-  <font >Giuseppe Di Fabbrizio</font> &nbsp; &nbsp;&nbsp;<font color="#818181">Rakuten, USA</font><br>
-  <font >Surya Kallumadi</font>&nbsp; &nbsp; <font color="#818181">Kansas State University, USA</font><br>
-  <font >Mohit Kumar</font>&nbsp; &nbsp; &nbsp;<font color="#818181">Flipkart, India</font><br>
-  <font ><a href="http://www.cs.otago.ac.nz/homepages/andrew/" target="_blank">Andrew Trotman</a></font> &nbsp; &nbsp;&nbsp;<font color="#818181">University of Otago, New Zealand</font><br>
-  <font >Yiu-Chang Lin</a></font>&nbsp; &nbsp; &nbsp;<font color="#818181">Rakuten, USA</font><br>
-  <font >Huasha Zhao</font>&nbsp; &nbsp;</font><font size="3"><font color="#818181">Alibaba&nbsp;</font></font></h2>
+  <font >Eugene Agichtein</font> &nbsp; &nbsp;&nbsp;<font color="#818181">​</font><font color="#818181">Emory University, USA</font><br>
+  <font >Dilek Hakkani-Tür</font>&nbsp; &nbsp; <font color="#818181">Amazon, USA</font><br>
+  <font >Surya Kallumadi</font>&nbsp; &nbsp; <font color="#818181">The Home Depot, USA</font><br>
+  <font >Shervin Malmasi</font>&nbsp; &nbsp; <font color="#818181">Amazon, USA</font><br>
+  
+  
 
 <div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
   <table class="wsite-multicol-table">
@@ -144,41 +153,21 @@
 
           
         </td>       <td class="wsite-multicol-col" style="width:70.11385199241%; padding:0 15px;">
-          
+         
           
 
 <div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;">
 <div style="height: 10px; overflow: hidden; width: 100%;"></div></div>
 
-
+To be announced 
           
         </td>     </tr>
     </tbody>
   </table>
 </div></div></div>
 
-<h2 class="wsite-content-title" style="text-align:left;"><font size="3">
-  <font >Sumit Borar</font> &nbsp; &nbsp;&nbsp;<font color="#818181">Myntra Fashion, India</font><br>
-  <font >Young-Joo Chung</font> &nbsp; &nbsp;&nbsp;<font color="#818181">Rakuten, USA</font><br>
-  <font >Fahmida Hamid</font> &nbsp; &nbsp;&nbsp;<font color="#818181">Bucknell University, USA</font><br>
-  <font >Yifan  He</font>&nbsp; &nbsp;</font><font size="3"><font color="#818181">Alibaba&nbsp;</font><br>
-  <font >Tracy Holloway King</font> &nbsp; &nbsp;&nbsp;<font color="#818181">​A9 (Amazon), USA</font><br>
-  <font >Ajinkya Kale</font>&nbsp; &nbsp; &nbsp;<font color="#818181">eBay inc., USA</font><br>
-  <font ><a href="http://cseweb.ucsd.edu/~jmcauley/" target="_blank">Julian McAuley</a></font> &nbsp; &nbsp;&nbsp;<font color="#818181">University of California, San Diego, USA</font><br>
-  <font >Subhadeep Maji</font>&nbsp; &nbsp; &nbsp;<font color="#818181">Flipkart, India</font><br>
-  <font ><a href="https://people.eng.unimelb.edu.au/ammoffat/" target="_blank">Alistair Moffat</a></font> &nbsp; &nbsp;&nbsp;<font color="#818181">University of Melbourne, Australia</font><br>
-  <font >Owen Phelan</font>&nbsp; &nbsp; <font color="#818181">Zalando, Ireland</font><br>
-  <font >Utkarsh Porwal</font>&nbsp; &nbsp; &nbsp;<font color="#818181">eBay inc., USA</font><br>
-  <font >Chris Severs</font> &nbsp; &nbsp;&nbsp;<font color="#818181">​A9 (Amazon), USA</font><br>
-  <font >Mohit Sharma</font> &nbsp; &nbsp;&nbsp;<font color="#818181">Walmart Labs, USA</font><br>
-  <font >Ian Soboroff</font> &nbsp; &nbsp;&nbsp;<font color="#818181">NIST, USA</font><br>
-  <font >Manas Somaiya</font> &nbsp; &nbsp;&nbsp;<font color="#818181">LinkedIn, USA</font><br>
-  <font >Parikshit Sondhi</font>&nbsp; &nbsp; &nbsp;<font color="#818181">Neulogic inc., USA</font><br>
-  <font >Thrivikrama Taula</font>&nbsp; &nbsp; &nbsp;<font color="#818181">eBay inc., USA</font><br>
-  <font >Shanchan Wu</font>&nbsp; &nbsp;</font><font size="3"><font color="#818181">Alibaba&nbsp;</font>
 
-  <p></p>
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;">
@@ -197,7 +186,7 @@
      <!-- Footer -->
     <footer class="py-5 bg-black">
       <div class="container">
-        <p class="m-0 text-center small"><a href="https://twitter.com/SIGIReCom" target="_blank" class="btn btn-primary btn-sl rounded-pill"><font color=#00274C>Follow us: @SIGIReCom<font></a></p>
+        <p class="m-0 text-center small"><a href="https://twitter.com/WSDMConvERSe" target="_blank" class="btn btn-primary btn-sl rounded-pill"><font color=#00274C>Follow us: @WSDMConvERSe<font></a></p>
         <p class="m-0 text-center small"><font color=#FFCB05>Please direct all your queries to surya@ksu.edu for help.</font></p>
       </div>
       <!-- /.container -->
